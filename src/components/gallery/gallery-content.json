@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gallery_gallery_contents",
+  "info": {
+    "displayName": "gallery-content"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

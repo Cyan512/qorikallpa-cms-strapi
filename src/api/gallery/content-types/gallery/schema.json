@@ -14,5 +14,17 @@
       "localized": true
     }
   },
-  "attributes": {}
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "gallery.gallery-content"
+      ]
+    }
+  }
 }

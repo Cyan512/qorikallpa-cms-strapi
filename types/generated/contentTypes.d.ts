@@ -446,6 +446,12 @@ export interface ApiGalleryGallery extends Struct.SingleTypeSchema {
     };
   };
   attributes: {
+    content: Schema.Attribute.DynamicZone<['gallery.gallery-content']> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
